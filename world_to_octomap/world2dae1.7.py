@@ -4,6 +4,7 @@ from math import pi
 
 # world_path = '/home/rhidra/Firmware/Tools/sitl_gazebo/worlds/'
 models_path = [
+    '/home/rowan/.ignition/fuel/fuel.ignitionrobotics.org/',
     '/home/rowan/.gazebo/models/'
 ]
 output = collada.Collada()
@@ -55,7 +56,7 @@ def parse_sdf(model_name):
     root_sdf = None
     for model_path in models_path:
         try:
-            sdf_path = model_path + model_name + '/model.sdf'
+            sdf_path = model_path + model_name + 'model.sdf'
             root_sdf = ET.parse(sdf_path).getroot()
             break
         except FileNotFoundError:
@@ -94,10 +95,15 @@ def parse_sdf(model_name):
             meshes.append(mesh)
         else: # Importing DAE collision mesh
             print('DAE detected !')
-            uri = model_path + node.find('geometry/mesh/uri').text[8:]
+            mesh_path = node.find('geometry/mesh/uri').text
+            if 'https://fuel.ignitionrobotics.org' in mesh_path:
+                mesh_path = mesh_path[mesh_path.find('mesh'):]
+            uri = model_path + model_name + mesh_path
+            if '.dae' not in uri:
+                continue
             scale = node.find('geometry/mesh/scale').text if node.find('geometry/mesh/scale') is not None else '1 1 1'
             scale = [float(a) for a in filter(lambda a: bool(a), scale.split(' '))]
-            print(scale)
+            print(uri)
             mesh = collada.Collada(uri)
 
             nodes = []
@@ -132,14 +138,15 @@ def parse_world(world_path):
         pose = node.find('pose').text if node.find('pose') is not None else '0 0 0 0 0 0'
         pose = [float(a) for a in filter(lambda a: bool(a), pose.split(' '))]
 
-        # Hardcode exceptions
-        if uri in ['model://sun', 'model://ground_plane', 'model://asphalt_plane']:
-            continue
         print()
         print('*'*30)
         print(uri, name, pose)
-
-        model_name = uri[8:]
+        model_name = ''
+        if 'https://fuel.ignitionrobotics.org' in uri:
+            model_name = uri[38:].lower() + '/2/'
+        else:
+            model_name = uri[8:]
+        print(model_name)
         extracted_meshes = parse_sdf(model_name)
 
         for mesh in extracted_meshes:

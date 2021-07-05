@@ -27,7 +27,7 @@ fi
 rm /tmp/file.dae /tmp/file.obj /tmp/file.binvox /tmp/file.binvox.bt
 
 # Convert from Gazebo world to Collada .dae
-python3 ${__dir}/world2dae.py $in /tmp/file.dae $axis_up
+python3 ${__dir}/world2dae1.7.py $in /tmp/file.dae $axis_up
 
 # Convert from Collada .dae to .obj using Blender
 blender --background --python ${__dir}/blend_convert_to_obj.py -- /tmp/file.dae /tmp/file.obj $axis_up

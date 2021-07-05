@@ -1,0 +1,318 @@
+<Element 'sdf' at 0x7fe475504db8>
+
+******************************
+model://radio_tower grey_wall [-2.0, 0.0, 0.0, 0.0, 0.0, -1.57]
+/home/rowan/.gazebo/models/radio_tower/model.sdf
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+DAE detected !
+/home/rowan/.gazebo/models/radio_tower/meshes/radio_tower.dae
+
+******************************
+model://grey_wall grey_wall2 [0.0, 2.0, 0.0, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall3 [1.0, -2.0, 0.0, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall4 [6.0, 2.0, 0.0, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall5 [9.0, -1.5, 0.0, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall6 [5.0, -5.0, 0.0, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall7 [9.0, -9.0, 0.0, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall8 [2.0, -9.0, 0.0, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall9 [5.0, -12.0, 0.0, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall10 [1.0, -12.0, 0.0, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall11 [-2.0, -10.0, 0.0, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall_up [-2.0, 0.0, 2.8, 0.0, 0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall2_up [0.0, 2.0, 2.8, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall3_up [1.0, -2.0, 2.8, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall4_up [6.0, 2.0, 2.8, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall5_up [9.0, -1.5, 2.8, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall6_up [5.0, -5.0, 2.8, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall7_up [9.0, -9.0, 2.8, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall8_up [2.0, -9.0, 2.8, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall9_up [5.0, -12.0, 2.8, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall10_up [1.0, -12.0, 2.8, 0.0, -0.0, 0.0]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+
+******************************
+model://grey_wall grey_wall11_up [-2.0, -10.0, 2.8, 0.0, -0.0, -1.57]
+/home/rowan/.gazebo/models/grey_wall/model.sdf
+[0.0, 0.0, 1.4, 0.0, 0.0, 0.0]
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Input file: /tmp/file.dae
+Output file: /tmp/file.obj
+Converting with blender...
+Progress:   0.00%    (  0.0001 sec |   0.0000 sec) OBJ Export path: '/tmp/file.obj'
+Progress:   0.00%Progress:   1.14%          (  0.0003 sec |   0.0000 sec) Finished writing geometry of 'parent__node051fd246-42af-4cf4-88a1-5aba90e7b908'.
+Progress:   1.14%Progress:   1.14%Progress:   1.33%Progress:   1.52%Progress:   1.70%Progress:   1.89%Progress:   2.08%Progress:   2.27%          (  0.0008 sec |   0.0005 sec) Finished writing geometry of 'node051fd246-42af-4cf4-88a1-5aba90e7b908'.
+Progress:   2.27%Progress:   2.27%Progress:   3.41%          (  0.0009 sec |   0.0000 sec) Finished writing geometry of 'parent__node502205e7-c3fb-4eed-9d00-1bfb3754b99b'.
+Progress:   3.41%Progress:   3.41%Progress:   3.60%Progress:   3.79%Progress:   3.98%Progress:   4.17%Progress:   4.36%Progress:   4.55%          (  0.0012 sec |   0.0004 sec) Finished writing geometry of 'node502205e7-c3fb-4eed-9d00-1bfb3754b99b'.
+Progress:   4.55%Progress:   4.55%Progress:   5.68%          (  0.0013 sec |   0.0000 sec) Finished writing geometry of 'parent__node70e42ddd-2030-4979-90f1-5d5dcfda8d08'.
+Progress:   5.68%Progress:   5.68%Progress:   5.87%Progress:   6.06%Progress:   6.25%Progress:   6.44%Progress:   6.63%Progress:   6.82%          (  0.0016 sec |   0.0003 sec) Finished writing geometry of 'node70e42ddd-2030-4979-90f1-5d5dcfda8d08'.
+Progress:   6.82%Progress:   6.82%Progress:   7.95%          (  0.0016 sec |   0.0000 sec) Finished writing geometry of 'parent__node6faf7615-e1a2-401f-bf5a-07dd93b3ed9d'.
+Progress:   7.95%Progress:   7.95%Progress:   8.14%Progress:   8.33%Progress:   8.52%Progress:   8.71%Progress:   8.90%Progress:   9.09%          (  0.0019 sec |   0.0003 sec) Finished writing geometry of 'node6faf7615-e1a2-401f-bf5a-07dd93b3ed9d'.
+Progress:   9.09%Progress:   9.09%Progress:  10.23%          (  0.0020 sec |   0.0000 sec) Finished writing geometry of 'parent__nodeb28a1177-6717-468c-8d96-b0745f401570'.
+Progress:  10.23%Progress:  10.23%Progress:  10.42%Progress:  10.61%Progress:  10.80%Progress:  10.98%Progress:  11.17%Progress:  11.36%          (  0.0023 sec |   0.0003 sec) Finished writing geometry of 'nodeb28a1177-6717-468c-8d96-b0745f401570'.
+Progress:  11.36%Progress:  11.36%Progress:  12.50%          (  0.0023 sec |   0.0000 sec) Finished writing geometry of 'parent__node45634674-1635-4ce3-9d42-5b9e8d4a93a2'.
+Progress:  12.50%Progress:  12.50%Progress:  12.69%Progress:  12.88%Progress:  13.07%Progress:  13.26%Progress:  13.45%Progress:  13.64%          (  0.0026 sec |   0.0003 sec) Finished writing geometry of 'node45634674-1635-4ce3-9d42-5b9e8d4a93a2'.
+Progress:  13.64%Progress:  13.64%Progress:  14.77%          (  0.0026 sec |   0.0000 sec) Finished writing geometry of 'parent__node22d442ca-616e-4d9b-a013-6ad5ce6748f6'.
+Progress:  14.77%Progress:  14.77%Progress:  14.96%Progress:  15.15%Progress:  15.34%Progress:  15.53%Progress:  15.72%Progress:  15.91%          (  0.0029 sec |   0.0003 sec) Finished writing geometry of 'node22d442ca-616e-4d9b-a013-6ad5ce6748f6'.
+Progress:  15.91%Progress:  15.91%Progress:  17.05%          (  0.0029 sec |   0.0000 sec) Finished writing geometry of 'parent__node5d3e851b-34eb-4043-a272-e251a9fd956a'.
+Progress:  17.05%Progress:  17.05%Progress:  17.23%Progress:  17.42%Progress:  17.61%Progress:  17.80%Progress:  17.99%Progress:  18.18%          (  0.0033 sec |   0.0003 sec) Finished writing geometry of 'node5d3e851b-34eb-4043-a272-e251a9fd956a'.
+Progress:  18.18%Progress:  18.18%Progress:  19.32%          (  0.0033 sec |   0.0000 sec) Finished writing geometry of 'parent__nodea7e565b7-9f99-490c-b841-74ee6516e254'.
+Progress:  19.32%Progress:  19.32%Progress:  19.51%Progress:  19.70%Progress:  19.89%Progress:  20.08%Progress:  20.27%Progress:  20.45%          (  0.0037 sec |   0.0003 sec) Finished writing geometry of 'nodea7e565b7-9f99-490c-b841-74ee6516e254'.
+Progress:  20.45%Progress:  20.45%Progress:  21.59%          (  0.0037 sec |   0.0000 sec) Finished writing geometry of 'parent__node96070d0f-3ca6-4960-a884-820eb8931d39'.
+Progress:  21.59%Progress:  21.59%Progress:  21.78%Progress:  21.97%Progress:  22.16%Progress:  22.35%Progress:  22.54%Progress:  22.73%          (  0.0041 sec |   0.0003 sec) Finished writing geometry of 'node96070d0f-3ca6-4960-a884-820eb8931d39'.
+Progress:  22.73%Progress:  22.73%Progress:  23.86%          (  0.0041 sec |   0.0000 sec) Finished writing geometry of 'parent__node5b4d3f5a-ffa9-49e3-afe1-580f19fe13e9'.
+Progress:  23.86%Progress:  23.86%Progress:  24.05%Progress:  24.24%Progress:  24.43%Progress:  24.62%Progress:  24.81%Progress:  25.00%          (  0.0045 sec |   0.0004 sec) Finished writing geometry of 'node5b4d3f5a-ffa9-49e3-afe1-580f19fe13e9'.
+Progress:  25.00%Progress:  25.00%Progress:  26.14%          (  0.0045 sec |   0.0000 sec) Finished writing geometry of 'parent__nodec0a2a064-8af4-4f7d-920a-acfa24bdb273'.
+Progress:  26.14%Progress:  26.14%Progress:  26.33%Progress:  26.52%Progress:  26.70%Progress:  26.89%Progress:  27.08%Progress:  27.27%          (  0.0049 sec |   0.0004 sec) Finished writing geometry of 'nodec0a2a064-8af4-4f7d-920a-acfa24bdb273'.
+Progress:  27.27%Progress:  27.27%Progress:  28.41%          (  0.0049 sec |   0.0000 sec) Finished writing geometry of 'parent__node5f954510-2ce6-4c32-b3f6-1188ba7ce266'.
+Progress:  28.41%Progress:  28.41%Progress:  28.60%Progress:  28.79%Progress:  28.98%Progress:  29.17%Progress:  29.36%Progress:  29.55%          (  0.0052 sec |   0.0003 sec) Finished writing geometry of 'node5f954510-2ce6-4c32-b3f6-1188ba7ce266'.
+Progress:  29.55%Progress:  29.55%Progress:  30.68%          (  0.0052 sec |   0.0000 sec) Finished writing geometry of 'parent__node2c11f682-f968-4761-a54c-2993e236f369'.
+Progress:  30.68%Progress:  30.68%Progress:  30.87%Progress:  31.06%Progress:  31.25%Progress:  31.44%Progress:  31.63%Progress:  31.82%          (  0.0055 sec |   0.0003 sec) Finished writing geometry of 'node2c11f682-f968-4761-a54c-2993e236f369'.
+Progress:  31.82%Progress:  31.82%Progress:  32.95%          (  0.0055 sec |   0.0000 sec) Finished writing geometry of 'parent__node373117b3-46fe-4526-8c76-58280293a73f'.
+Progress:  32.95%Progress:  32.95%Progress:  33.14%Progress:  33.33%Progress:  33.52%Progress:  33.71%Progress:  33.90%Progress:  34.09%          (  0.0058 sec |   0.0002 sec) Finished writing geometry of 'node373117b3-46fe-4526-8c76-58280293a73f'.
+Progress:  34.09%Progress:  34.09%Progress:  35.23%          (  0.0058 sec |   0.0000 sec) Finished writing geometry of 'parent__node1a07ab49-fcfc-4de8-bc44-5e081ce72e01'.
+Progress:  35.23%Progress:  35.23%Progress:  35.42%Progress:  35.61%Progress:  35.80%Progress:  35.98%Progress:  36.17%Progress:  36.36%          (  0.0061 sec |   0.0003 sec) Finished writing geometry of 'node1a07ab49-fcfc-4de8-bc44-5e081ce72e01'.
+Progress:  36.36%Progress:  36.36%Progress:  37.50%          (  0.0061 sec |   0.0000 sec) Finished writing geometry of 'parent__node23b1eefb-e772-464b-8d95-130efee84fce'.
+Progress:  37.50%Progress:  37.50%Progress:  37.69%Progress:  37.88%Progress:  38.07%Progress:  38.26%Progress:  38.45%Progress:  38.64%          (  0.0064 sec |   0.0003 sec) Finished writing geometry of 'node23b1eefb-e772-464b-8d95-130efee84fce'.
+Progress:  38.64%Progress:  38.64%Progress:  39.77%          (  0.0064 sec |   0.0000 sec) Finished writing geometry of 'parent__node8e8f7fc0-09b0-454f-8596-b87013d4f665'.
+Progress:  39.77%Progress:  39.77%Progress:  39.96%Progress:  40.15%Progress:  40.34%Progress:  40.53%Progress:  40.72%Progress:  40.91%          (  0.0067 sec |   0.0003 sec) Finished writing geometry of 'node8e8f7fc0-09b0-454f-8596-b87013d4f665'.
+Progress:  40.91%Progress:  40.91%Progress:  42.05%          (  0.0067 sec |   0.0000 sec) Finished writing geometry of 'parent__node3ca5ae20-704e-46ac-b040-8f03a4fe8b7a'.
+Progress:  42.05%Progress:  42.05%Progress:  42.23%Progress:  42.42%Progress:  42.61%Progress:  42.80%Error: Object does not have geometry data
+Error: Object does not have geometry data
+Error: Object does not have geometry data
+Progress:  42.99%Progress:  43.18%          (  0.0071 sec |   0.0003 sec) Finished writing geometry of 'node3ca5ae20-704e-46ac-b040-8f03a4fe8b7a'.
+Progress:  43.18%Progress:  43.18%Progress:  44.32%          (  0.0071 sec |   0.0000 sec) Finished writing geometry of 'parent__nodecec4b5a1-5231-4efc-a25e-88b44fee4b2f'.
+Progress:  44.32%Progress:  44.32%Progress:  44.51%Progress:  44.70%Progress:  44.89%Progress:  45.08%Progress:  45.27%Progress:  45.45%          (  0.0074 sec |   0.0003 sec) Finished writing geometry of 'nodecec4b5a1-5231-4efc-a25e-88b44fee4b2f'.
+Progress:  45.45%Progress:  45.45%Progress:  46.59%          (  0.0074 sec |   0.0000 sec) Finished writing geometry of 'parent__node4ee2800c-eb62-49cb-b497-ee9749666dc6'.
+Progress:  46.59%Progress:  46.59%Progress:  46.78%Progress:  46.97%Progress:  47.16%Progress:  47.35%Progress:  47.54%Progress:  47.73%          (  0.0077 sec |   0.0002 sec) Finished writing geometry of 'node4ee2800c-eb62-49cb-b497-ee9749666dc6'.
+Progress:  47.73%Progress:  47.73%Progress:  48.86%          (  0.0077 sec |   0.0000 sec) Finished writing geometry of 'parent__node-RadioTower'.
+Progress:  48.86%Progress:  48.86%Progress:  49.05%Progress:  49.24%Progress:  49.43%Progress:  49.62%Progress:  49.81%Progress:  50.00%          (  0.1136 sec |   0.1059 sec) Finished writing geometry of 'node-RadioTower'.
+Progress:  50.00%Progress:  50.00%Progress:  50.00%      (  0.1137 sec |   0.1136 sec) Finished exporting geometry, now exporting materials
+Progress: 100.00%      (  0.1138 sec |   0.1137 sec) OBJ Export Finished
+Progress: 100.00%Progress: 100.00%Progress: 100.00%Progress: 100.00%
+
+------------------------------
+  Converting done !
+------------------------------
+
+Blender quit
+
+--- [binvox] mesh voxelizer, version 1.33, build #746 on 2021/03/27 20:51:24, running on Linux
+--- written by Patrick Min, 2004-2021
+
+  using exact voxelization method
+  will only write the voxels in the bounding box
+loading model file...
+MeshFileIdentifier::*create_mesh_file(/tmp/file.obj)
+ObjMeshFile::load(/tmp/file.obj)
+  running [wc -l /tmp/file.obj]
+15291 /tmp/file.obj
+  material library:  file.mtl
+  ignoring object name [ node051fd246-42af-4cf4-88a1-5aba90e7b908_mygeom.020]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node502205e7-c3fb-4eed-9d00-1bfb3754b99b_mygeom.019]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node70e42ddd-2030-4979-90f1-5d5dcfda8d08_mygeom.018]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node6faf7615-e1a2-401f-bf5a-07dd93b3ed9d_mygeom.017]
+  100 lines read  100 lines read  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ nodeb28a1177-6717-468c-8d96-b0745f401570_mygeom.016]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node45634674-1635-4ce3-9d42-5b9e8d4a93a2_mygeom.015]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node22d442ca-616e-4d9b-a013-6ad5ce6748f6_mygeom.014]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  200 lines read  ignoring object name [ node5d3e851b-34eb-4043-a272-e251a9fd956a_mygeom.013]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ nodea7e565b7-9f99-490c-b841-74ee6516e254_mygeom.012]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node96070d0f-3ca6-4960-a884-820eb8931d39_mygeom.011]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node5b4d3f5a-ffa9-49e3-afe1-580f19fe13e9_mygeom.010]
+  300 lines read  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ nodec0a2a064-8af4-4f7d-920a-acfa24bdb273_mygeom.009]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node5f954510-2ce6-4c32-b3f6-1188ba7ce266_mygeom.008]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node2c11f682-f968-4761-a54c-2993e236f369_mygeom.007]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  400 lines read  ignoring object name [ node373117b3-46fe-4526-8c76-58280293a73f_mygeom.006]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node1a07ab49-fcfc-4de8-bc44-5e081ce72e01_mygeom.005]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node23b1eefb-e772-464b-8d95-130efee84fce_mygeom.004]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node8e8f7fc0-09b0-454f-8596-b87013d4f665_mygeom.003]
+  500 lines read  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node3ca5ae20-704e-46ac-b040-8f03a4fe8b7a_mygeom.002]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ nodecec4b5a1-5231-4efc-a25e-88b44fee4b2f_mygeom.001]
+  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  ignoring object name [ node4ee2800c-eb62-49cb-b497-ee9749666dc6_mygeom]
+  ignoring [usemtl None]
+  600 lines read  ignoring smooth shading directive [s off]
+  600 lines read  ignoring object name [ node-RadioTower_RadioTower]
+  700 lines read  800 lines read  900 lines read  1000 lines read  1100 lines read  1200 lines read  1300 lines read  1400 lines read  1500 lines read  1600 lines read  1700 lines read  1800 lines read  1900 lines read  2000 lines read  2100 lines read  2200 lines read  2300 lines read  2400 lines read  2500 lines read  2600 lines read  2700 lines read  2800 lines read  2900 lines read  3000 lines read  3100 lines read  3200 lines read  3300 lines read  3400 lines read  3500 lines read  3600 lines read  3700 lines read  3800 lines read  3900 lines read  4000 lines read  4100 lines read  4200 lines read  4300 lines read  4400 lines read  4500 lines read  4600 lines read  4700 lines read  4800 lines read  4900 lines read  5000 lines read  5100 lines read  5200 lines read  5300 lines read  5400 lines read  5500 lines read  5600 lines read  5700 lines read  5800 lines read  5900 lines read  6000 lines read  6100 lines read  6200 lines read  6300 lines read  6400 lines read  6500 lines read  6600 lines read  6700 lines read  6800 lines read  6900 lines read  7000 lines read  7100 lines read  7200 lines read  7300 lines read  7400 lines read  7500 lines read  7600 lines read  7700 lines read  7800 lines read  7900 lines read  8000 lines read  8100 lines read  8200 lines read  8300 lines read  8400 lines read  8500 lines read  8500 lines read  8600 lines read  8600 lines read  8700 lines read  8700 lines read  8800 lines read  8800 lines read  8900 lines read  8900 lines read  9000 lines read  9000 lines read  9100 lines read  9100 lines read  9200 lines read  9200 lines read  9300 lines read  9300 lines read  9400 lines read  9400 lines read  9500 lines read  9500 lines read  9600 lines read  9600 lines read  9700 lines read  9700 lines read  9800 lines read  9800 lines read  9900 lines read  9900 lines read  10000 lines read  10000 lines read  10100 lines read  10100 lines read  10200 lines read  10200 lines read  10300 lines read  10300 lines read  ignoring [usemtl None]
+  ignoring smooth shading directive [s off]
+  10400 lines read  10500 lines read  10600 lines read  10700 lines read  ignoring smooth shading directive [s 1]
+  10800 lines read  10900 lines read  11000 lines read  11100 lines read  11200 lines read  11300 lines read  11400 lines read  11500 lines read  11600 lines read  11700 lines read  11800 lines read  11900 lines read  12000 lines read  12100 lines read  12200 lines read  12300 lines read  12400 lines read  12500 lines read  12600 lines read  12700 lines read  12800 lines read  12900 lines read  13000 lines read  13100 lines read  13200 lines read  13300 lines read  13400 lines read  13500 lines read  13600 lines read  13700 lines read  13800 lines read  13900 lines read  14000 lines read  14100 lines read  14200 lines read  14300 lines read  14400 lines read  14500 lines read  14600 lines read  14700 lines read  14800 lines read  14900 lines read  15000 lines read  15100 lines read  15200 lines read  15292 lines read
+Read 5144 faces, 3716 vertices.
+Mesh memory use is 3016 KB (2 MB)
+  Mesh::normalize, bounding box: [-5.87008, -6.72364, 0, 1] - [5.86555, 6.66819, 44.168, 1]
+    longest length: 44.168
+  normalization transform:
+  (1) translate [5.87008, 6.72364, -0, 1], (2) scale 0.0226408, (3) translate [0, 0, 0]
+  got mesh bounding box [-5.87008, -6.72364, 0, 1] - [5.86555, 6.66819, 44.168, 1]
+Voxels::init(256, 256, 256, 0)
+  Voxels::clear
+Voxelizer constructor
+SimpleMeshView constructor
+starting voxelization...
+Voxelizer::exact_voxelize
+Voxels::print_filled_area
+Voxels::compute_bounding_box
+  area filled: 69 x 256 x 78
+  integer bounding box: [0,0,0] - [68,255,77]
+Voxels::print_count
+  counted 44949 set voxels out of 16777216
+Voxels::crop
+Voxels::compute_bounding_box
+  new size: 1377792
+Voxels::print_filled_area
+Voxels::compute_bounding_box
+  area filled: 69 x 256 x 78
+  integer bounding box: [0,0,0] - [68,255,77]
+
+writing voxel file...
+VoxelFile::write_file(/tmp/file.binvox)
+Wrote 44949 set voxels out of 1377792, in 60142 bytes
+done
+
+Reading binvox file /tmp/file.binvox.
+reading binvox version 1
+Generating octree with leaf size 0.172531
+
+Read data: .....................
+
+    read 44949 voxels, skipped 0 (out of bounding box)
+
+Pruning octree
+
+Writing octree to /tmp/file.binvox.bt
+
+done
+
