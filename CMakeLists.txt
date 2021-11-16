@@ -16,6 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   bbox.msg
+  bbox_2d.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -27,6 +28,10 @@ generate_messages(
 
 catkin_package(
   CATKIN_DEPENDS roscpp message_runtime
+)
+
+catkin_install_python(PROGRAMS script/detection_node.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 include_directories(

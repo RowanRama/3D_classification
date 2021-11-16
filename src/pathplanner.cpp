@@ -112,8 +112,8 @@ class PathPlanner{
             geometry_msgs::Quaternion q = origin.orientation;
             double rotation = asin(-2.0 * (q.x * q.z - q.w * q.y));
 
-            geometry_msgs::Point front; front.x = cos(rotation); front.z = sin(rotation);
-            geometry_msgs::Point right; right.x = sin(rotation); right.z = cos(rotation);
+            geometry_msgs::Point front; front.x = cos(rotation); front.y = sin(rotation);
+            geometry_msgs::Point right; right.x = sin(rotation); right.y = cos(rotation);
 
             ROS_INFO("FRONT - {%f, %f, %f}     FRONT - {%f, %f, %f}",
                         front.x,
@@ -129,59 +129,62 @@ class PathPlanner{
                 for(int i = 1; i*step < height; i++){
                     geometry_msgs::PoseStamped newp;
                     newp.header.seq = i;
+                    newp.header.frame_id = "world";
                     newp.pose.position = origin.position;
                     switch(i % 4){
                         case 0:
                             newp.pose.position.x += front.x * width/2;
-                            newp.pose.position.z += front.z * width/2;
+                            newp.pose.position.y += front.y * width/2;
                             break;
                         case 1:
                             newp.pose.position.x += right.x * width/2;
-                            newp.pose.position.z += right.z * width/2;
+                            newp.pose.position.y += right.y * width/2;
                             break;
                         case 2:
                             newp.pose.position.x -= front.x * width/2;
-                            newp.pose.position.z -= front.z * width/2;
+                            newp.pose.position.y -= front.y * width/2;
                             break;
                         case 3:
                             newp.pose.position.x -= right.x * width/2;
-                            newp.pose.position.z -= right.z * width/2;
+                            newp.pose.position.y -= right.y * width/2;
                             break;
                     }
-                    newp.pose.position.y += (float)i*step;
+                    newp.pose.position.z += (float)i*step;
                     pplan_msg.poses.push_back(newp);
                 }
             }else{
                 for(int i = 0; i < 8; i++){
                     geometry_msgs::PoseStamped newp;
                     newp.header.seq = i;
+                    newp.header.frame_id = "world";
                     newp.pose.position = origin.position;
                     switch(i % 4){
                         case 0:
                             newp.pose.position.x += front.x * width/2;
-                            newp.pose.position.z += front.z * width/2;
+                            newp.pose.position.y += front.y * width/2;
                             break;
                         case 1:
                             newp.pose.position.x += right.x * width/2;
-                            newp.pose.position.z += right.z * width/2;
+                            newp.pose.position.y += right.y * width/2;
                             break;
                         case 2:
                             newp.pose.position.x -= front.x * width/2;
-                            newp.pose.position.z -= front.z * width/2;
+                            newp.pose.position.y -= front.y * width/2;
                             break;
                         case 3:
                             newp.pose.position.x -= right.x * width/2;
-                            newp.pose.position.z -= right.z * width/2;
+                            newp.pose.position.y -= right.y * width/2;
                             break;
                     }
                     if(i==1 || i==2 || i==5 || i==6)
-                        newp.pose.position.y += height;
+                        newp.pose.position.z += height;
                     else
-                        newp.pose.position.y += step;
+                        newp.pose.position.z += step;
                     pplan_msg.poses.push_back(newp);
                 }
             }
             pplan = pplan_msg;
+            pplan_msg.header.frame_id = "world";
             pub_.publish(pplan_msg);
 
         }

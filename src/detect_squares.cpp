@@ -6,6 +6,7 @@
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <iostream>
+#include <classification/bbox_2d.h>
 
 #include <pcl/filters/crop_box.h>
 
@@ -15,8 +16,7 @@ class BoxFilter{
     BoxFilter(ros::NodeHandle nh) : nh_(nh), min_(Eigen::Vector4f{}), max_(Eigen::Vector4f{}){
       // Create a ROS subscriber for the input point cloud
       sub_ = nh_.subscribe<sensor_msgs::PointCloud2> ("/octomap_point_cloud_centers", 1, &BoxFilter::cloud_cb, this);
-      sub_min_ = nh_.subscribe<geometry_msgs::Point> ("/box_filter/min", 1, &BoxFilter::min_cb, this);
-      sub_max_ = nh_.subscribe<geometry_msgs::Point> ("/box_filter/max", 1, &BoxFilter::max_cb, this);
+      sub_bbox_ = nh_.subscribe<classification::bbox_2d> ("/feature/2d_bbox", 1, &BoxFilter::bbox_cb, this);
 
       // Create a ROS publisher for the output point cloud
       pub_ = nh_.advertise<sensor_msgs::PointCloud2> ("/output_filtered", 1);
@@ -26,20 +26,16 @@ class BoxFilter{
     ros::NodeHandle nh_;
     ros::Publisher pub_;
     ros::Subscriber sub_;
-    ros::Subscriber sub_max_;
-    ros::Subscriber sub_min_;
+    ros::Subscriber sub_bbox_;
 
     Eigen::Vector4f min_;
     Eigen::Vector4f max_;
 
-    void min_cb (const geometry_msgs::PointConstPtr& min) {
+    void bbox_cb (const classification::bbox_2d::ConstPtr& msg) {
       ROS_INFO("callback successful");
-      min_ = Eigen::Vector4f(min->x, min->y, min->z, 1.0);
-    };
 
-    void max_cb (const geometry_msgs::PointConstPtr& max) {
-      ROS_INFO("callback successful");
-      max_ = Eigen::Vector4f(max->x, max->y, max->z, 1.0);
+      min_ = Eigen::Vector4f(msg->origin.position.x - msg->width/2, msg->origin.position.y - msg->width/2, 0, 1.0 );
+      max_ = Eigen::Vector4f(msg->origin.position.x + msg->width/2, msg->origin.position.y + msg->width/2, 999, 1.0 );
     };
 
     void
